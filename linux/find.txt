@@ -1,0 +1,84 @@
+  1  sudo su ~
+    2  ls
+    3  ls /
+    4  ls /etc
+    5  exit
+    6  pwd
+    7  sudo root
+    8  sudo su
+    9  exit
+   10  cd root
+   11  cd /tmp
+   12  pwd
+   13  mkdir piit
+   14  cd piit
+   15  pwd
+   16  touch apple.txt orange.txt
+   17  touch file{1..10}.txt
+   18  ls
+   19  nano apple.txt
+   20  nano apple.txt
+   21  cd /
+   22  pwd
+   23  ls /tmp
+   24  ls /tmp/piit
+   25  find /tmp/piit -name apple.txt
+   26  find /tmp -mtime -7
+   27  find /tmp -mtime -7
+   28  find / -name apple*.*
+   29  find / -name a*.txt > test.txt
+   30  cat test.txt
+   31  find / -type f -name "*.log
+
+exit
+cl
+
+
+
+
+clear
+
+
+
+
+find
+   32  find / -type f -name "*.log"
+   33  find / -size +100m
+   34  find / -size +100M
+   35  ls
+   36  cd /tmp/piit
+   37  ls
+   38  diff apple.txt orange.txt
+   39  nano orange.txt
+   40  diff apple.txt orange.txt
+   41  file /etc/passwd
+   42  file /tmp/piit/apple.txt
+   43  which ls
+   44  file usr/bin/ls
+   45  file /usr/bin/ls
+   46  touch ali
+   47  ls
+   48  file ali
+   49  nano ali
+   50  file ali
+   51  grep "piit" /
+   52  grep "piit" /tmp/piit/
+   53  grep -r "piit" /tmp/piit/
+   54  grep -r "piit" /tmp/
+   55  grep -ri "AWS" /tmp/
+   56  grep -ri "ec2*" /etc/passwd
+   57  useradd apple
+   58  cat etc/apple/
+   59  cat /etc/passwd
+   60  usermod -l orange apple
+   61  cat /etc/passwd
+   62  usermod -help
+   63  sed -i's/aws/azure/g' apple.txt
+   64  sed -i 's/aws/azure/g' apple.txt
+   65  cat apple.txt
+   66  less apple.txt
+   67  ip a >> apple.txt
+   68  cat apple.txt
+   69  less apple.txt
+   70  head apple.txt
+   71  history
